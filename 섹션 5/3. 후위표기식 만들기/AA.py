@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import sys
 import os
 from collections import deque
@@ -27,3 +28,6 @@ for x in a:
 while stack:
   res+=stack.pop()
 print(res)
+=======
+
+>>>>>>> 06486190276e6fcb3ab9da89900bec2d63ecb4b8
