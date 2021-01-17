@@ -30,6 +30,7 @@ for i in range(n):
     x1,x2 = map(int, input().split())
     aa.append((x1,x2))
 
+
 res=0
 DFS(0,0,0)
 print(res)
