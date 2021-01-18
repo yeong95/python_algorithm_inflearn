@@ -12,9 +12,9 @@ def DFS(v,sum):
         # print(sum)
         res=sum
     for i in range(v,n):
-        path.append(a[i][0])
+        # path.append(a[i][0])
         DFS(a[i][0]+a[i][1],sum+a[i][2])
-        path.pop()
+        # path.pop()
 
 
 n=int(input())
