@@ -11,7 +11,7 @@ def DFS(L,sum):
     if sum==tot:
         res+=1
     elif L==n:
-        if sum==tot:
+        if sum==tot:s
             res+=1
     else:
         for i in range(0,num[L]+1):
