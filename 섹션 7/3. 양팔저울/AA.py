@@ -1,6 +1,6 @@
 import sys
 import os
-os.chdir(r'C:\Users\CHOYEONGKYU\Desktop\파이썬 알고리즘 문제풀이(코딩테스트 대비)\섹션 7\3. 양팔저울')
+os.chdir(r'/home/yeong95/inflearn_python_algorithom/python_algorithm_inflearn/섹션 7/3. 양팔저울')
 sys.stdin=open("in5.txt", "r")
 
 def DFS(L,sum):
